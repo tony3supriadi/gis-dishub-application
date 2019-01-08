@@ -1,0 +1,138 @@
+header {
+    box-shadow: 0px 0px 10px #888888;
+
+    .top-header {
+        width: 100%;
+        color: #999;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        background-color: #f9f8f8;
+
+        .container {
+            a {
+                text-decoration: none;
+            }
+            
+            .link-facebook {
+                color: #0570c2;
+                font-size: 20px;
+            }
+
+            .link-twitter {
+                color: #01c8e6;
+                font-size: 20px;
+            }
+
+            .link-youtube {
+                color: #c10202;
+                font-size: 20px;
+            }
+        }
+    }
+
+    .navbar {
+
+        .navbar-brand {
+            padding: 8px 15px;
+        }
+
+        a {
+            font-weight: bold;
+        }
+    }
+}
+
+section, .page-content {
+    min-height: 380px;
+
+    /* Error Page */
+    .error-page {
+        text-align: center;
+        margin: 50px 0;
+        
+        h1 {
+            font-size: 154px;
+            font-weight: bold;
+        }
+        
+        h3 {
+            font-size: 48px;
+            font-weight: bold;
+        }
+        
+        a {
+            margin-top: 50px;
+        }
+    }
+    
+    .legend-item {
+
+        a, a:hover {
+            color: #0570c2;
+            text-decoration: none;
+        }
+    }
+    
+    .institusi-page {
+        
+        .instansi-item {
+            height: 166.55px;
+            margin-bottom: 30px;
+            
+            .label-instansi {
+                visibility: hidden;
+                margin-top: -30px;
+                height: 30px;
+            }
+        }
+        
+        .instansi-item:hover {
+            height: 166.55px;
+            
+            .label-instansi {
+                text-align: center;
+                margin-top: -30px;
+                height: 30px;
+                padding: 5px 0;
+                width: 249.83px;
+                position: absolute;
+                z-index: 2;
+                visibility: visible;
+                                
+                .label-bg-transparan {
+                    width: 249.83px;
+                    height: 30px;
+                    position: absolute;
+                    z-index: 1;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                    left: 0;
+                    background: #fff;
+                    filter:alpha(opacity=50); /* IE */
+                    -moz-opacity:0.5; /* Mozilla */
+                    opacity: 0.5; /* CSS3 */
+                }
+                
+                .label-instansi-text {
+                    z-index: 2;
+                    position: absolute;
+                    width: 249.83px;
+                    right: 0;
+                    text-decoration: none;
+                    color: #000;
+                    font-weight: bold;
+                }
+            }
+           
+        }
+        
+    }
+}
+
+footer {
+    margin-top: 80px;
+    padding: 20px 0;
+    box-shadow: 0px 0px 10px #888888;
+    background: #fff;
+}
